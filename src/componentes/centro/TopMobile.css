@@ -1,0 +1,17 @@
+.TopMobile{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .TopMobile{
+        display: flex;
+        width: 80px;
+        position: fixed;
+        top: 1vh;
+        height: 40px;
+        justify-content: end;
+        padding: 0.3em 0;
+        background-color: white;
+        border-radius: 1rem;
+        border: 1px solid black;
+    }
+}

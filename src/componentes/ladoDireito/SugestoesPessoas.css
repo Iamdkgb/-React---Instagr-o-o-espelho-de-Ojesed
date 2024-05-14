@@ -1,0 +1,8 @@
+.SugestoesPessoas{
+   height: 70%;
+   width: 100%;
+}
+.containerButton{
+    display: flex;
+    align-items: center;
+}

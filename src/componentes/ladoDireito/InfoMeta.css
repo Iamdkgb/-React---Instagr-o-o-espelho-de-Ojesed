@@ -1,0 +1,16 @@
+.InfoMeta{
+    width: 100%;
+    height: 15%;
+    padding: 0.2rem;
+}
+
+.aboutMeta{
+   height: 70%;
+   font-size: 0.65rem;
+}
+
+.dominioMeta{
+    font-weight: 500;
+    height: 30%;
+    font-size: 0.6rem;
+}

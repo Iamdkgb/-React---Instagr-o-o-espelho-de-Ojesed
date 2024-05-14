@@ -1,0 +1,73 @@
+.SeuPerfil{
+    width: 100%;
+    height: 15%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.containerImg,.containerNome, .containerButton{
+    height: 100%;
+}
+
+.containerImg{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImg img{
+    height: 80%;
+    width: 85%;
+    border-radius: 50%;
+    padding: 0.1rem;
+    border: 1px solid rgba(71, 69, 69, 0.419);
+}
+
+.containerNome{
+    margin-left: 0.4rem;
+    width: 60%;
+    height: 100%;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    justify-content: center;
+}
+.containerNome h3{
+    height: 50%;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    align-items: end;
+}
+.containerNome h4{
+    
+    height: 50%;
+    font-weight: 400;
+}
+.containerButton{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.4rem;
+}
+
+.containerButton button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 149, 246);
+    font-size: 0.7rem;
+    display: flex;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .containerImg img{
+        height: 70%;
+    }
+}

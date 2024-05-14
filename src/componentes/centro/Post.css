@@ -1,0 +1,163 @@
+.cardPost{
+    height: auto;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.cardHeader{
+height: 40PX;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 0.4rem;
+}
+
+.leftHeaderPost{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.containerFotoUser{
+    margin: 0 0.2rem ;
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerFotoUser img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.containerUser {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem
+}
+.containerUser h3{
+    font-size: 0.7rem;
+    
+}
+.containerUser h4{
+    margin-left: 0.2rem;
+    color: grey;
+}
+.rightHeaderPost{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+
+}
+.containerFoto{
+    height: 50%;
+    width: 100%;
+}
+.containerFoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.interacoesPostagem{
+
+}
+.containerButtons{
+    margin: 0.5rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.leftButtons{
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fotoCurtida{
+    display: flex;
+    width:25px;
+}
+.curtidoInfo{
+    display: flex;
+    align-items: center;
+}
+.curtidoInfo p{
+    margin-left: 25px;
+    font-size: 0.7rem;
+}
+.curtidoInfo span{
+    cursor: pointer;
+    font-weight: 700;
+}
+.card-footer{
+}
+.descPostagem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+}
+.comentarioUser{
+    display: flex;
+    width: auto;
+    margin-right: 0.3rem;
+    justify-content: start;
+    align-items: center;
+}
+.todosComentarios{
+    margin: 0.3rem 0;
+    font-size: 0.7rem;
+    color: gray;
+}
+.seuComentario{
+    align-items: center;
+    padding: 0.2rem 0;
+    font-size: 0.7rem;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.488);
+    margin: 0.5rem 0;
+    justify-content: space-between;
+}
+.comentario{
+    display: flex;
+    align-items: center;
+}
+.comentarioFoto img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.digiteAqui{
+    margin-left: 0.4rem;
+    color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .cardPost{
+        width: 100%;
+        padding: 0rem;
+       }
+       .cardHeader{
+        padding: 0px  1rem 0px 0.2rem;
+       }
+       .containerFoto img{
+        margin: 0.1rem;
+       }
+       .interacoesPostagem{
+        margin: 0 0.5rem;
+       }
+       .card-footer{
+        margin: 0 0.5rem;
+        
+       }
+}
